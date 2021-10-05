@@ -5,6 +5,10 @@ var namespacerange__queries =
       [ "SG", "d9/d35/classrange__queries_1_1heavy__light__decomposition_1_1_s_g.html", "d9/d35/classrange__queries_1_1heavy__light__decomposition_1_1_s_g" ],
       [ "Tree", "d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html", "d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree" ]
     ] ],
+    [ "prefix_sum_array", null, [
+      [ "build", "d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a", null ],
+      [ "query", "d1/d9e/prefix__sum__array_8cpp.html#a1df888706f137fdae9f43036b621bbf1", null ]
+    ] ],
     [ "sparse_table", null, [
       [ "buildTable", "d4/d96/range__queries_2sparse__table_8cpp.html#a803a2451e87021d14ae06f148383e6bc", null ],
       [ "computeLogs", "d4/d96/range__queries_2sparse__table_8cpp.html#a40810d8c0fe3f8cf432ab128b1ae0300", null ],

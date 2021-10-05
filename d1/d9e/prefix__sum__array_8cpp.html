@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d1/d9e/prefix__sum__array_8cpp.html','
 </div><!--header-->
 <div class="contents">
 
-<p>Implementation of [Prefix Sum Array] data structure.  
+<p>Implementation of <a href="https://en.wikipedia.org/wiki/Prefix_sum" target="_blank">Prefix Sum Array</a> data structure.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
@@ -122,10 +122,13 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1ed92262121825859ce505eac4a70c5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a">range_queries::prefix_sum_array::build</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; int &gt; original_array)</td></tr>
+<tr class="memdesc:a1ed92262121825859ce505eac4a70c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that builds the PSA  <a href="../../d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a">More...</a><br /></td></tr>
 <tr class="separator:a1ed92262121825859ce505eac4a70c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1df888706f137fdae9f43036b621bbf1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9e/prefix__sum__array_8cpp.html#a1df888706f137fdae9f43036b621bbf1">range_queries::prefix_sum_array::query</a> (int beg, int end)</td></tr>
+<tr class="memdesc:a1df888706f137fdae9f43036b621bbf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">query function  <a href="../../d1/d9e/prefix__sum__array_8cpp.html#a1df888706f137fdae9f43036b621bbf1">More...</a><br /></td></tr>
 <tr class="separator:a1df888706f137fdae9f43036b621bbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9e/prefix__sum__array_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <a href="../../d1/d9e/prefix__sum__array_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -135,7 +138,7 @@ Variables</h2></td></tr>
 <tr class="separator:acb61c70457012aa34dcd407802670963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Implementation of [Prefix Sum Array] data structure. </p>
+<div class="textblock"><p >Implementation of <a href="https://en.wikipedia.org/wiki/Prefix_sum" target="_blank">Prefix Sum Array</a> data structure. </p>
 <p >Prefix Sum Array is a data structure, that allows answering sum in some range queries. It can answer most sum range queries in O(1), with a build time complexity of O(N). But it hasn't an update querie.</p>
 <ul>
 <li>Running Time Complexity <br  />
@@ -161,13 +164,21 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                                          {</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= static_cast&lt;int&gt;(original_array.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>()); i++) {</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        PSA.push_back(PSA[i - 1] + original_array[i]);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
+
+<p>function that builds the PSA </p>
+<div class="fragment"><div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                                          {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= static_cast&lt;int&gt;(original_array.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>()); i++) {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        PSA.push_back(PSA[i - 1] + original_array[i]);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
 <div class="ttc" id="asize_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/size.html">std::vector::size</a></div><div class="ttdeci">T size(T... args)</div></div>
-</div><!-- fragment -->
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d9e/prefix__sum__array_8cpp_a1ed92262121825859ce505eac4a70c5a_cgraph.svg" width="320" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
@@ -185,23 +196,26 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Main function </p>
-<div class="fragment"><div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>           {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> values{0,  123, 0,  2,  -2, 5,</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                            24, 0,   23, -1, -1};  <span class="comment">// original array</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    range_queries::prefix_sum_array::build(values);</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">// queries are of the type: sum of the range [a, b] = psa[b] - psa[a-1]</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    assert(range_queries::prefix_sum_array::query(1, 10) ==</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>           173);  <span class="comment">// sum of the entire array</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    assert(range_queries::prefix_sum_array::query(4, 6) ==</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>           27);  <span class="comment">// the sum of the interval [4, 6]</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    assert(range_queries::prefix_sum_array::query(5, 9) ==</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>           51);  <span class="comment">// the sum of the interval [5, 9]</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+
+<p>Main function. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
+<div class="fragment"><div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>           {</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> values{0,  123, 0,  2,  -2, 5,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>                            24, 0,   23, -1, -1};  <span class="comment">// original array</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_function" href="../../d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a">range_queries::prefix_sum_array::build</a>(values);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">// queries are of the type: sum of the range [a, b] = psa[b] - psa[a-1]</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    assert(range_queries::prefix_sum_array::query(1, 10) ==</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>           173);  <span class="comment">// sum of the entire array</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    assert(range_queries::prefix_sum_array::query(4, 6) ==</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>           27);  <span class="comment">// the sum of the interval [4, 6]</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    assert(range_queries::prefix_sum_array::query(5, 9) ==</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>           51);  <span class="comment">// the sum of the interval [5, 9]</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
+<div class="ttc" id="aprefix__sum__array_8cpp_html_a1ed92262121825859ce505eac4a70c5a"><div class="ttname"><a href="../../d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a">range_queries::prefix_sum_array::build</a></div><div class="ttdeci">void build(std::vector&lt; int &gt; original_array)</div><div class="ttdoc">function that builds the PSA</div><div class="ttdef"><b>Definition:</b> prefix_sum_array.cpp:37</div></div>
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -231,7 +245,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{ <span class="keywordflow">return</span> PSA[<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>] - PSA[beg - 1]; }</div>
+
+<p>query function </p>
+<dl class="section return"><dt>Returns</dt><dd>sum of the range [a, b] </dd></dl>
+<div class="fragment"><div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{ <span class="keywordflow">return</span> PSA[<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>] - PSA[beg - 1]; }</div>
 <div class="ttc" id="aend_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a></div><div class="ttdeci">T end(T... args)</div></div>
 </div><!-- fragment -->
 </div>
