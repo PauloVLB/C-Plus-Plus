@@ -26,10 +26,10 @@ var NAVTREE =
 [
   [ "Algorithms_in_C++", "index.html", [
     [ "The Algorithms - C++", "index.html", [
-      [ "Overview", "index.html#autotoc_md90", null ],
-      [ "Features", "index.html#autotoc_md91", null ],
-      [ "Documentation", "index.html#autotoc_md92", null ],
-      [ "Contributions", "index.html#autotoc_md93", null ]
+      [ "Overview", "index.html#autotoc_md91", null ],
+      [ "Features", "index.html#autotoc_md92", null ],
+      [ "Documentation", "index.html#autotoc_md93", null ],
+      [ "Contributions", "index.html#autotoc_md94", null ]
     ] ],
     [ "Contributor Covenant Code of Conduct", "d4/d4c/md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "d4/d4c/md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
@@ -133,16 +133,16 @@ var NAVTREEINDEX =
 "cpp/iterator/distance.html",
 "cpp/thread/lock.html",
 "d1/d83/classuint256__t.html#aa28ae272e9176557133a10dffa3b94dc",
-"d2/d9a/structothers_1_1iterative__tree__traversals_1_1_node.html#af19e39acfc18b823be9d4879a20e1143",
-"d4/d68/qr__decompose_8h.html",
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md50",
-"d6/d80/double__hash__hash__table_8cpp.html#ac2adfce49ac57f6dbd1778d2c1ce0d2b",
-"d8/d69/classgraph_1_1_h_k_graph.html#a0da5aa674d3b3e54a38251ee60d7cd64",
-"d9/d44/magic__number_8cpp.html",
-"da/dd3/karatsuba__algorithm__for__fast__multiplication_8cpp.html#aa8dca7b867074164d5f45b0f3851269d",
-"dc/d38/ordinary__least__squares__regressor_8cpp.html#ade6e463f37878fe2a219f927c65b5493",
-"dd/db6/structbinary__search__tree_1_1bst__node.html#a55c165b9e0e5b50a23104e0604dcc788",
-"functions_f.html"
+"d2/d9a/structothers_1_1iterative__tree__traversals_1_1_node.html#ad443d44275337b9e361375ce66f1104f",
+"d4/d5d/math_2armstrong__number_8cpp.html#aab733299b170fa5a752503f95f090fcd",
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md46",
+"d6/d80/double__hash__hash__table_8cpp.html#a5d06e4598569526294f10104875f6824",
+"d8/d61/radix__sort2_8cpp.html#ae0cfd94fa3765b53d4ec7893ffaee5f8",
+"d9/d35/classrange__queries_1_1heavy__light__decomposition_1_1_s_g.html#afba5c1225ba04c0025c7786c09ff28f1",
+"da/dd1/structquadratic__probing_1_1_entry.html#a9df1118010a233d13ab3dd699bcb513e",
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#a865e8d26a01962cc93aca66e71346f37",
+"dd/db0/_2_users_2runner_2work_2_c-_plus-_plus_2_c-_plus-_plus_2sorting_2wiggle_sort_8cpp-example.html",
+"dir_2e746e9d06bf2d8ff842208bcc6ebcfc.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

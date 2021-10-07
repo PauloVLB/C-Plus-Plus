@@ -151,6 +151,7 @@ var namespaces_dup =
     [ "pancake_sort", "df/d10/namespacepancake__sort.html", null ],
     [ "postfix_expression", "d4/de6/namespacepostfix__expression.html", null ],
     [ "prefix_sum_array", "d7/d88/namespaceprefix__sum__array.html", null ],
+    [ "probability", "d4/ded/namespaceprobability.html", "d4/ded/namespaceprobability" ],
     [ "qr_algorithm", "d2/d3b/namespaceqr__algorithm.html", [
       [ "eigen_values", "d2/d3b/namespaceqr__algorithm.html#a28e2fa3e803abaea6c568dc45d69d8cc", null ],
       [ "operator<<", "d2/d3b/namespaceqr__algorithm.html#adfbdf47277c8cfee229b05b72f1f7834", null ],
@@ -268,6 +269,7 @@ var namespaces_dup =
     [ "wave_sort", "d9/d21/namespacewave__sort.html", null ],
     [ "wiggle_sort", "d0/d52/namespacewiggle__sort.html", null ],
     [ "wildcard_matching", "db/d03/namespacewildcard__matching.html", null ],
+    [ "windowed_median", "dd/d21/namespacewindowed__median.html", null ],
     [ "word_break", "d6/d53/namespaceword__break.html", null ],
     [ "XOR", "d7/d47/namespace_x_o_r.html", null ]
 ];
