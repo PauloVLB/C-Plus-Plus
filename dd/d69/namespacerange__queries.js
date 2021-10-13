@@ -7,7 +7,7 @@ var namespacerange__queries =
     ] ],
     [ "prefix_sum_array", null, [
       [ "build", "d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a", null ],
-      [ "query", "d1/d9e/prefix__sum__array_8cpp.html#a1df888706f137fdae9f43036b621bbf1", null ]
+      [ "query", "d1/d9e/prefix__sum__array_8cpp.html#aedc70a70a70cb03252f37542cfc2e7ab", null ]
     ] ],
     [ "sparse_table", null, [
       [ "buildTable", "d4/d96/range__queries_2sparse__table_8cpp.html#a803a2451e87021d14ae06f148383e6bc", null ],
