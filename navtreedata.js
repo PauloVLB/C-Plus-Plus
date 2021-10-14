@@ -141,8 +141,8 @@ var NAVTREEINDEX =
 "d9/d35/classrange__queries_1_1heavy__light__decomposition_1_1_s_g.html#ad3b942be27a1b0fe3cff6cb6edf01294",
 "da/dac/n__queens__all__solution__optimised_8cpp.html#a04090463be4942a69ea91fe7386da905",
 "db/ddc/namespaceaystar__search.html",
-"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#aa5c0486c7f29f323a2aced2ab33af420",
-"df/dce/namespacegraph.html#ab5428a3519267a28bba4b4310cfbb6ae"
+"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#aa17e0227321b109ed91e156ac1332915",
+"df/dce/namespacegraph.html#a83ab16e96cec644109a58dfc9329bc2b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
