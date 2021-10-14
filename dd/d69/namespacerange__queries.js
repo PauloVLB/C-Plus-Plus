@@ -6,7 +6,7 @@ var namespacerange__queries =
       [ "Tree", "d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html", "d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree" ]
     ] ],
     [ "prefix_sum_array", null, [
-      [ "build", "d1/d9e/prefix__sum__array_8cpp.html#a1ed92262121825859ce505eac4a70c5a", null ],
+      [ "build", "d1/d9e/prefix__sum__array_8cpp.html#ab36151479ad37d53ef9fcb60a274b1d9", null ],
       [ "query", "d1/d9e/prefix__sum__array_8cpp.html#a7c8fd967c36dbba5fdf9c71faed604cf", null ]
     ] ],
     [ "sparse_table", null, [
