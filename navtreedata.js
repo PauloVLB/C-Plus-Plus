@@ -142,7 +142,7 @@ var NAVTREEINDEX =
 "da/dac/n__queens__all__solution__optimised_8cpp.html#a04090463be4942a69ea91fe7386da905",
 "db/ddc/namespaceaystar__search.html",
 "dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#aa17e0227321b109ed91e156ac1332915",
-"df/dce/namespacegraph.html#a83ab16e96cec644109a58dfc9329bc2b"
+"df/dce/namespacegraph.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
